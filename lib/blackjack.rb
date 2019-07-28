@@ -75,7 +75,6 @@ def runner()
   while total <21 &&  $user_input == 'h'
       total = hit?(total)
       p $user_input
-      total_two = total
       if $user_input == 's' < total_two
         bol_con = false
       end
