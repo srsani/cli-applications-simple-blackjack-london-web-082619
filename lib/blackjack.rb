@@ -73,6 +73,7 @@ def runner()
   total =  initial_round()
   total_first = total
   bol_con = true
+  $user_input = h
   while total <21 && bol_con == true
       total = hit?(total)
       p $user_input
