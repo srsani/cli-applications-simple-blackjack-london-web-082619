@@ -72,9 +72,8 @@ def runner()
   welcome()
   total =  initial_round()
   $user_input = 'h'
-  while total <21 &&  $user_input == 'h'
+  while total <21 && $user_input == 'h'
       total = hit?(total)
-      p $user_input
       if $user_input == 's'
         total = hit?(total)
       end
