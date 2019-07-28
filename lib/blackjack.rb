@@ -19,7 +19,7 @@ end
 
 def get_user_input
   $user_input = gets.chomp
-return user_input
+return $user_input
 end
 
 def end_game(card_total)
