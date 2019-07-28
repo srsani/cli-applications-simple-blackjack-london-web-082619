@@ -71,12 +71,12 @@ end
 def runner()
   welcome()
   total =  initial_round()
-  total_first = total
-  while total <21 &&  $user_input = h
+  $user_input == 'h'
+  while total <21 &&  $user_input == 'h'
       total = hit?(total)
       p $user_input
       total_two = total
-      if total_first < total_two
+      if $user_input == 's' < total_two
         bol_con = false
       end
       if total >21
