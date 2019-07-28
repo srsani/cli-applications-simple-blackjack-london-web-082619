@@ -75,7 +75,7 @@ def runner()
   bol_con = true
   while total <21 && bol_con == true
       total = hit?(total)
-      p total
+      p $user_input
       total_two = total
       if total_first < total_two
         bol_con = false
