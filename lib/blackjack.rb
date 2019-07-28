@@ -18,7 +18,7 @@ def prompt_user
 end
 
 def get_user_input
-$user_input = gets.chomp
+  $user_input = gets.chomp
 return user_input
 end
 
