@@ -75,8 +75,8 @@ def runner()
   while total <21 &&  $user_input == 'h'
       total = hit?(total)
       p $user_input
-      if $user_input == 's' < total_two
-        bol_con = false
+      if $user_input == 's'
+        total = hit?(total)
       end
       if total >21
         end_game(total)
